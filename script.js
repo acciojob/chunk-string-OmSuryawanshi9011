@@ -1,4 +1,4 @@
-function chunkString(str, size) {
+function stringChop(str, size) {
   // If the string is null, return an empty array
   if (str === null) {
     return [];
@@ -20,3 +20,4 @@ function chunkString(str, size) {
 const str = prompt("Enter String.");
 const size = prompt("Enter Chunk Size.");
 alert(stringChop(str, size));
+
